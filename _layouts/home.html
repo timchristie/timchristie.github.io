@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-<ul>
+<ul class="blogpost">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">
-      <h1>{{ post.title }}</h1>
+      <a href="{{ post.url }}"  class="blogitem">
+      <h1 class="clickable">{{ post.title }}</h1>
       {{ post.excerpt }}
-      <i>Read more...</i>
+      <p>Read more...</p>
       </a>
     </li>
   {% endfor %}

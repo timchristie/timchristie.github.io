@@ -1,7 +1,23 @@
+/*TODO MOBILE*/
+/*TODO css for links that don't abuse blog posts*/
+
 body {
   background-image: url('../bg.png');
   font-family: 'IBM Plex Mono', monospace;
   background-color: #CCCCCC;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0));
+}
+
+h4, h5 {
+  color: #111111;
 }
 
 .sidebar {
@@ -17,10 +33,9 @@ body {
 }
 
 .sidebar h1 {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   background-color: #333333;
-  color: #DDDDDD; 
+  color: #DDDDDD;
 }
 
 .sidebar ul {
@@ -30,7 +45,12 @@ body {
 
 .sidebar li {
   padding: 5px;
+  color: #333333;
   text-decoration: underline;
+}
+
+.sidebar a:hover {
+  text-decoration: none;
 }
 
 .sidebar li:hover {
@@ -41,11 +61,14 @@ body {
 
 .main p {
   line-height: 200%;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", sans-serif;
+  margin-left: 30px;
 }
 
 .main {
   float: left;
   max-width: 50%;
+  min-width: 50%;
   color: #333333;
   background-color: #CCCCCC;
   padding: 30px;
@@ -54,26 +77,48 @@ body {
 }
 
 .main ul {
-  list-style-type: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  list-style-type: square;
   padding: 0;
+  margin-left: 60px;
 }
 
-.main a {
-  color: #333333;
+.main .blogpost {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+.main li {
+  padding-bottom: 10px;
+}
+
+a:hover {
   text-decoration: none;
+  background-color: #D65420;
+  color: #DDDDDD;
 }
 
-.main h1:hover {
-  background-color: #D65420;
+a {
+  color: #D65420;
+}
+
+.clickable h1:hover {
+  background-color: #D65420 !important;
   border-right: 30px solid #333333;
   color: #DDDDDD;
 }
 
 .main h1 {
   color: #333333;
-  background-color: #DDDDDD; 
+  font-family: 'IBM Plex Mono', monospace;
+  background-color: #DDDDDD;
   padding-left: 10px;
+  padding: 10px;
   border-right: 30px solid #D65420;
+}
+
+h3 {
+  color: #D65420;
 }
 
 .highlighter-rouge {
@@ -87,4 +132,13 @@ body {
   padding: 5px;
   background-color: #333333;
   padding-left: 30px;
+}
+
+.blogitem {
+  color: #333333;
+  text-decoration: none;
+}
+
+.blogitem:hover {
+  color: #D65420;
 }
