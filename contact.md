@@ -14,4 +14,4 @@ My GitHub profile is [github.com/timchristie](https://github.com/timchristie)
 
 ### EMAIL
 
-me [at] timchristie.info
+contact [at] timothychristie.com
