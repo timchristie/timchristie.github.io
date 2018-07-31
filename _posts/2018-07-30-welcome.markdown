@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "welcome"
+date:   2017-11-23 23:19:38 -0800
+categories: jekyll update
+---
+
+Hello, and welcome to my website. There will be some blog posts here soon - in the meantime make sure to check out my resume and contact information.
