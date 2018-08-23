@@ -75,7 +75,7 @@ h4, h5 {
   padding: 30px;
   padding-top: 0;
   margin: 20px;
-  overflow: scroll;
+  overflow-y: scroll;
   max-height: 85%;
   border: 12px solid #333333;
 }
