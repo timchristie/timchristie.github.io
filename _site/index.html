@@ -11,21 +11,21 @@
     <script>
       $(document).ready(function() {
           $('a').mouseenter(function() {
-            if($( window ).width() > 768)
+            if($( window ).width() > 980)
               $('.container').css('border', '12px solid #D65420');
           });
 
           $('a').mouseleave(function() {
-            if($( window ).width() > 768) 
+            if($( window ).width() > 980) 
               $('.container').css('border', '12px solid #333333');
           });
       });
 
       $(window).resize(function() {
-        if($( window ).width() < 768) 
+        if($( window ).width() < 980) 
           $('.container').css('border', 'none');
 
-        if($( window ).width() > 768) 
+        if($( window ).width() > 980) 
           $('.container').css('border', '12px solid #333333');
       });
     </script>
