@@ -10,22 +10,26 @@
           });
 
           $('a').mouseleave(function() {
-            if($( window ).width() > 980) 
+            if($( window ).width() > 980)
               $('.container').css('border', '12px solid #333333');
           });
       });
 
       $(window).resize(function() {
-        if($( window ).width() < 980) 
+        if($( window ).width() < 980)
           $('.container').css('border', 'none');
 
-        if($( window ).width() > 980) 
+        if($( window ).width() > 980)
           $('.container').css('border', '12px solid #333333');
       });
     </script>
     <div class="container">
       <div class="sidebar">
         <h1>hi, i'm tim</h1>
+        <p>
+          I'm a data analyst / engineer currently residing in the San
+          Francisco Bay area.
+        </p>
         <ul>
           <a href="/index"><li>home</li></a>
           <a href="/resume"><li>r&eacute;sum&eacute;</li></a>
