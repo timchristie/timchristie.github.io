@@ -1,6 +1,7 @@
 body {
   font-family: 'IBM Plex Mono', monospace;
   background-color: #DDDDDD;
+  opacity: 0.8;
 }
 
 .main .blogpost {
@@ -93,7 +94,7 @@ h3 {
   color: #DDDDDD;
 }
 
-@media only screen and (max-width: 979px) {
+@media only screen and (max-width: 960px) {
   .sidebar {
     padding-top: 0;
     margin: 10px;
@@ -140,7 +141,7 @@ h3 {
 
 }
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 960px) {
   h4, h5 {
     color: #111111;
   }
@@ -181,8 +182,9 @@ h3 {
   .main {
     float: left;
     max-width: 50%;
-    min-width: 50%;
+    min-width: 500px;
     padding: 30px;
+    padding-left: 0;
     padding-top: 0;
     margin: 20px;
     overflow-y: auto;
@@ -203,7 +205,6 @@ h3 {
 
 
   .container {
-    opacity: 0.8;
     position: fixed;
     top: 0;
     left: 0;
