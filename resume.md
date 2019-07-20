@@ -10,9 +10,24 @@ Download a PDF of my r&eacute;sum&eacute; [here.](/assets/tim_christie_resume.pd
 
 ### EXPERIENCE
 
+#### QuanticMind | Senior Data Analyst (Customer Success Team)
+
+##### NOVEMBER 2018 - JULY 2019 | REDWOOD CITY / SAN MATEO, CALIFORNIA
+
+Responsibilities and projects have included:
+
+* **Customer Interactions:** Worked directly with clients to troubleshoot bidding performance for
+their advertising programs. Set up and assessed performance of new customer pilot programs.
+Provided quarterly, and ad-hoc performance review slide decks to clients. Mapped client’s
+business goals to bidding algorithm parameters.
+* **Data Products:** Provided various data products both internally and externally. These included
+charts generated in R, Excel spreadsheets, and dashboards created in the QuanticMind UI.
+* **Internal Tools:** Developed R Shiny framework to house internal data analysis tools for
+Customer Success Managers and Data Analysts on the Customer Success Team
+
 #### Meta | Data Analytics and Technical Services Engineer (Analytics and Neuroscience Team)
 
-##### OCTOBER 2013 - PRESENT | SAN MATEO, CALIFORNIA
+##### OCTOBER 2013 - SEPTEMBER 2018 | SAN MATEO, CALIFORNIA
 
 Responsibilities and projects have included:
 
@@ -53,9 +68,3 @@ Graduated with Distinction. Subjects included: Database Management Systems, Web 
 **Hackagong, July 2013:** Co-organizer for Australia's largest independent hackathon at the time. Responsibilities included organising event space, promotion, and prizes.
 
 **HackagongX Code, September 2013:** Co-organized a second hackathon in 2013 with an emphasis on software development.
-
----
-
-### INTERESTS
-
-**Hobbies:** Lawn Bowls, Floorball, Soccer, Australian Rules Football, Bass Guitar.
