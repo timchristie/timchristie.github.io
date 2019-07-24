@@ -6,3 +6,9 @@ categories: jekyll update
 ---
 
 Hello, and welcome to my website. There will be some blog posts here soon - in the meantime make sure to check out my r&eacute;sum&eacute; and contact information.
+
+{% highlight ruby %}
+def Hello
+ puts Hello
+end
+{% endhighlight %}
