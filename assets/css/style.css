@@ -69,9 +69,7 @@ h3 {
 
 
 .main p {
-  line-height: 200%;
-
-  margin-left: 30px;
+  padding: 10px;
 }
 
 .main h1 {
@@ -86,6 +84,10 @@ h3 {
 
 .sidebar {
   color: #333333;
+}
+
+.sidebar p {
+  padding: 10px;
 }
 
 .sidebar h1 {
@@ -130,9 +132,14 @@ h3 {
     margin-left: -20px;
   }
 
+  .main h1 {
+    margin: 0px;
+  }
+
   .main {
     border: 10px solid #333333;
     margin: 10px;
+    padding: 0;
   }
 
   .main ul {
